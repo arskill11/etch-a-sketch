@@ -1,0 +1,47 @@
+body {
+    background-color: gray;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gridContainer {
+    background-color: white;
+    box-sizing: content-box;
+    width: 608px;
+    height: 608px;
+    border: 3px solid black;
+    margin: 10px auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#gridContainer div {
+    border: 1px black solid;
+    box-sizing: border-box;
+    flex: 1 38px;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: lightblue;
+    border: 2px black solid;
+    color: gray;
+    font-weight: 500;
+}
+
+.btns {
+    display: flex;
+    gap: 20px;
+}
