@@ -26,7 +26,7 @@ h1 {
 }
 
 #gridContainer div {
-    border: 1px black solid;
+    border: 1px gray solid;
     box-sizing: border-box;
     flex: 1 38px;
 }
@@ -37,7 +37,7 @@ button {
     border-radius: 10px;
     background-color: lightblue;
     border: 2px black solid;
-    color: gray;
+    color: rgb(81, 81, 81);
     font-weight: 500;
 }
 

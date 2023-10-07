@@ -94,11 +94,8 @@ function backToBlack () {
 
 }
 
-
-
 generateGrid();
 mouseOverEvent();
-
 
 btnResize.addEventListener('click', resizeGrid);
 btnChangeColor.addEventListener('click', setColor);
